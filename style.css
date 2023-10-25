@@ -7,7 +7,6 @@ img{
     position: relative;
     border: solid;
     left: 100px;
-    z-index: -5;
     display: inline;
     background-color: lightblue;
 }
@@ -26,19 +25,19 @@ p.habit{
 p {
     color: red;
     color: blue;
-    z-index: 10;
 }
 
-.title>p{
-}
-.title h2{
-}
-.title div{
-    height: 100px;
-    width: 300px;
-    display: inline;
-    background-color: lightblue;
+.title{
+    display: inline-block;
 }
 
+.container{
+    display: flex;
+    gap: 10px;
+}
+.description{
+    display: flex;
+    gap: 10px;
+}
 
 
